@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/register.css" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="title-text">
+            <div class="title login">
+                Sign Up
+            </div>
+        </div>
+        <div class="form-container">
+            <div class="form-inner">
+                <form id="register" action="#" class="signup" enctype="multipart/form-data">
+                    <div
+                        class="field name display-flex flex-direction-row justify-content-flex-start align-items-center layout-gap-8">
+                        <input class="fName" name="fName" type="text" placeholder="First Name" required>
+                        <input class="lName" name="lName" type="text" placeholder="Last Name" required>
+                    </div>
+                    <div
+                        class="field display-flex flex-direction-row justify-content-flex-start align-items-center layout-gap-8">
+                        <input class="email" name="email" type="email" placeholder="Email" required>
+                        <input class="password" name="password" type="password" placeholder="Password" required>
+                    </div>
+                    <div
+                        class="field display-flex flex-direction-row justify-content-flex-start align-items-center layout-gap-8">
+                        <input class="city" name="city" type="text" placeholder="City" required>
+                        <input class="zip" name="zip" type="text" placeholder="Zip" required>
+                    </div>
+                    <div
+                        class="field display-flex flex-direction-row justify-content-flex-start align-items-center layout-gap-8">
+                        <input class="apartment" name="apartment" type="text" placeholder="Apartment">
+                        <input class="street" name="street" type="text" placeholder="Street">
+                    </div>
+                    <div
+                        class="field display-flex flex-direction-row justify-content-flex-start align-items-center layout-gap-8">
+                        <input class="division" name="division" type="text" placeholder="Division" required>
+                        <input class="country" name="country" type="text" placeholder="Country" required>
+                    </div>
+                    <div class="field btn display-flex flex-direction-row justify-content-space-between">
+                        <div style="width: 100%">
+                            <div class="btn-layer"></div>
+                            <input type="submit" value="Sign up">
+                        </div>
+                        <!-- <div class="loader"></div> -->
+                    </div>
+                    <div class="signup-link">
+                        Already Have Account? <a href="login.html">Login</a>
+                    </div>
+                    <div class="mt-12 display-flex flex-direction-row justify-content-center align-items-center">
+                        <span id="error" class="hide"></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="../scripts/register.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<div class="sidebar-main">
+  <div class="logo logo-title">Department</div>
+  <div class="menus menu-container">
+    <a href="index.html" class="menu menu-button-dashboard">Dashboard</a>
+    <a href="examination.html" class="menu menu-button-examination">Examination</a>
+    <a href="fees.html" class="menu menu-button-">Fees</a>
+    <a href="academics.html" class="menu menu-button-academics">Academics</a>
+    <a href="library.html" class="menu menu-button-library">Library</a>
+  </div>
+  <div class="dropdown dropdown-menu">
+    <a href="#" class="actions mr-20 dropbtn" onclick="showDropdown()">
+      <i class="fa fa-user fa-lg dropbtn"></i>
+    </a>
+    <div id="dropdown-list" class="dropdown-content">
+      <div id="unauthorized" class="show">
+        <a href="login.html">Login</a>
+        <a href="register.html">Sign Up</a>
+      </div>
+      <div id="authorized" class="hide">
+        <a id="firstName" href="profile.html"></a>
+        <a href="#" onclick="logout()">Logout</a>
+      </div>
+    </div>
+  </div>
+</div>
